@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercy Kabingu | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="shooting-stars"></div>
+    <header>
+        <div class="container">
+            <h1 class="logo">Dev-kabingu</h1>
+
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <nav class="nav" id="nav">
+                <div class="close-btn" id="close-btn">&times;</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- -----------Here section---------------- -->
+
+    <section id="home" class="hero">
+        <div class="text-container" data-aos="fade-up" data-aos-delay="200">
+            <h3>Hi 👋, <br /> </h3>
+            <h1>I'm <span>Mercy Kabingu</span></h1>
+            <p class="typewriter"></p>
+            <p> Am passionate about building modern, responsive, and user-friendly websites.</p>
+            <a href="#portfolio" class="cta-btn">View My Work</a>
+        </div>
+        <div class="image-container" data-aos="fade-up" data-aos-delay="300">
+            <img src="./img1.jpg" alt="rose Kabingu">
+        </div>
+    </section>
+
+
+    <!-- ----------------About Section------------------------ -->
+
+    <div id="about" class="about-section" data-aos="fade-up" data-aos-duration="1000">
+        <div class="about-container row">
+            <!-- Left Side: Image -->
+            <div class="about-col-1" data-aos="fade-right" data-aos-delay="200">
+                <img src="./img1.jpg" alt="About Me">
+            </div>
+
+            <!-- Right Side: Content -->
+            <div class="about-col-2" data-aos="fade-left" data-aos-delay="400">
+                <h1 class="subtitle">About Me</h1>
+                <p class="about-description">
+                    Hi! I'm Mercy Kabingu, a passionate Frontend Developer and Software Engineering student at Kirinyaga University, graduating in September 2025.
+
+                    I have hands-on experience with the MERN stack (MongoDB, Express.js, React.js, and Node.js), which I gained through the Power Learn Project and Safaricom Hooks online training programs.
+                     <br />
+                    I'm skilled in HTML, CSS, Tailwind CSS, JavaScript, and React.js—and I love designing websites that
+                    are clean, responsive, and user-friendly. I'm also familiar with backend development using Node.js,
+                    MongoDB, and SQL.
+
+                    I'm always eager to learn, grow, and work on meaningful projects that make a difference.
+                </p>
+
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('hobbies')">Hobbies</p>
+                    <p class="tab-links" onclick="openTab('Passion')">Passion</p>
+                    <p class="tab-links" onclick="openTab('Interest')">Interest</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="hobbies">
+                    <ul>
+                        <li><strong>UI UX Design</strong><br></li>
+                        <li>Prototyping with Figma</li>
+                        <li>Wireframing</li>
+                        <li><strong>Database Queries</strong><br>MySQL, MongoDB</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Passion">
+                    <ul>
+                        <li><strong>Web Design</strong><br>Web/App interface</li>
+                        <li><strong>UI/UX Designing</strong><br>Web/App interface</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Interest">
+                    <ul>
+                        <li><strong>Design Work</strong><br>Am most interested in design user friendly interfaces</li>
+                        <li><strong>Frontend Wed Developement</strong><br>Using technologies like React, Tailwindcss
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ----------------Services Section------------------- -->
+    <section id="services" class="services-section py-16">
+        <div class="section-content">
+            <h2 class="section-heading" data-aos="fade-up">Services</h2>
+            <h1 class="section-title" data-aos="fade-up" data-aos-delay="200">What I Offer</h1>
+            <div class="service-grid">
+                <div class="service-card" data-aos="zoom-in">
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">I create responsive, high-performance websites tailored to your
+                        business needs.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="service-title">UI/UX Design</h3>
+                    <p class="service-description">I design clean, intuitive, and user-friendly interfaces with an
+                        emphasis on user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------Skills section----------------------- -->
+    <section id="skills" class="skills-section py-16">
+        <div class="section-content">
+            <h2 class="section-heading" data-aos="fade-up">Skills</h2>
+            <h1 class="section-title" data-aos="fade-up" data-aos-delay="200">My Skills</h1>
+            <div class="skills-grid">
+                <div class="skill" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="progress-circle" data-progress="80">
+                        <span class="progress-value">0%</span>
+                    </div>
+                    <p class="skill-name">Web Development</p>
+                </div>
+                <div class="skill" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="progress-circle" data-progress="70">
+                        <span class="progress-value">0%</span>
+                    </div>
+                    <p class="skill-name">UI/UX Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -----------------Portfolio Sections----------------- -->
+
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-heading" data-aos="fade-up">Portfolio</h2>
+        <p data-aos="fade-up" data-aos-delay="200">Check out some of my latest projects.</p>
+        <div class="projects">
+
+            <div class="flip-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./img1.jpg" alt="Project Image">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Project Title 1</h3>
+                        <p>This project utilizes a modern design with a 3D flip effect.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./img1.jpg" alt="Project Image">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Project Title 2</h3>
+                        <p>A sleek and interactive design with creative transitions.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" data-aos="fade-up" data-aos-delay="700">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./img1.jpg" alt="Project Image">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Project Title 3</h3>
+                        <p>Experience an engaging 3D flip that reveals more details.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-------------------Education Section---------------------- -->
+    <div id="education" class="education-container">
+        <h1 data-aos="fade-up">Education</h1>
+        <section class="timeline" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-item left">
+                <div class="line left-line"></div>
+                <div class="text-box left">
+                    <h3>BSc Software Engineering - Kirinyaga University</h3>
+                    <p>Currently a final-year student, expected to graduate in September 2025.</p>
+                    <span class="date">2021 - 2025</span>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="line right-line"></div>
+                <div class="text-box right">
+                    <h3>Power Learn Program & Safaricom Hooks</h3>
+                    <p>MERN stack specialization.</p>
+                    <span class="date">September 2024 - April 2025</span>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-------------------Certification Section---------------------- -->
+    <div id="education" class="education-container">
+        <h1 data-aos="fade-up">Certifications</h1>
+        <section class="timeline" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-item left">
+                <div class="line left-line"></div>
+                <div class="text-box left">
+                    <h3>Introduction to Cloud Computing – IBM SkillsBuild</h3>
+                    <p>Learned the basics of cloud computing, including IaaS, PaaS, SaaS, and how cloud platforms work.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="line right-line"></div>
+                <div class="text-box right">
+                    <h3>Relational Databases – IBM SkillsBuild</h3>
+                    <p>Gained knowledge of structured databases, SQL, and how to work with relational data models.</p>
+                </div>
+            </div>
+        </section>
+        <section class="timeline" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-item right">
+                <div class="line left-line"></div>
+                <div class="text-box left">
+                    <h3>Prompt Engineering for ChatGPT – IBM SkillsBuild</h3>
+                    <p>Learned how to write effective prompts for AI tools like ChatGPT and explored real-world applications.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="line right-line"></div>
+                <div class="text-box right">
+                    <h3>MERN Stack Training – Power Learn Project & Safaricom Hooks</h3>
+                    <p>Completed hands-on training focused on building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- --------contact section----------------- -->
+
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-heading" data-aos="fade-up">Contact</h2>
+        <h1 class="section-title" data-aos="fade-up" data-aos-delay="200">Get in Touch</h1>
+
+        <div class="contact-content">
+
+            <!-- Contact Info -->
+            <div class="contact-details" data-aos="fade-up" data-aos-delay="400">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Email</p>
+                    <p>nduta6550@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>Phone</p>
+                    <p>+254 792 014 534</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Location</p>
+                    <p>Murang'a, Kenya</p>
+                </div>
+                <div class="btn-cv">
+                    <i class="fa-solid fa-download"></i>
+                    <p>Download CV</p>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mercy-kabingu-552175334/" class="linkedin"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Dev-Kabingu" class="github"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+                <div id="success-message" class="hidden">Message Sent Successfully!</div>
+
+                <form id="contactForm" action="https://formsubmit.co/nduta6550@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+    <!-- -----------------------footer--------------------- -->
+    <footer>
+        <p>© 2025 Mercy Kabingu. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+    <script>
+        AOS.init(); 
+    </script>
+
+</body>
+
+</html>
